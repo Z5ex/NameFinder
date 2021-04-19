@@ -7,7 +7,7 @@ try:
     print(f'                Wordlist : {argv[1]}')
     print(f'                Country Code: {argv[2]}')
 except IndexError:
-    print('usege: python3 NameFinder.py <wordlist> <country_code> ')
+    print('usage: python3 NameFinder.py <wordlist> <country_code> ')
     exit()
 open_file = open(argv[1], 'r').readlines()
 White = Fore.LIGHTWHITE_EX
